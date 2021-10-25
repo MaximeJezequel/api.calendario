@@ -11,6 +11,8 @@ https://gist.github.com/bhubr/00c6e39e72231cf091a17772d73e6fb3
 
 When you're done, in the terminal, run :
 
+- "git clone git@github.com:MaximeJezequel/api.calendario.git" to clone the project
+- "cd api.calendario" to enter the project
 - "npm install" to install dependencies
 
 ### MySQL database
@@ -18,7 +20,7 @@ When you're done, in the terminal, run :
 MySQL server should be installed as a prerequisite and you should create at least one user.
 https://dev.mysql.com/doc/mysql-getting-started/en/
 
-You can retrieve the database config by importing the file "db.sql" in the "./config" folder :
+You can retrieve the database config by importing the file "db.sql" in the "./config" folder from the Github repository:
 1-Enter the "config" folder by running "cd config".
 2-Launch MySQL by running "mysql -u root -p" and enter your user password when prompted.
 (Windows users may need to use "winpty" software package and run "winpty mysql -u root -p")
