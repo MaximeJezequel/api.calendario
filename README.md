@@ -5,9 +5,8 @@ api.calendario is the back-end server used by the Binouze Corporation, in conjun
 ### Installation
 
 Node.js should be installed as a prerequisite.
-https://nodejs.org/en/download/<br />
-If you're using Windows, bash should also be installed.
-https://gist.github.com/bhubr/00c6e39e72231cf091a17772d73e6fb3
+[>Node.js installation](https://nodejs.org/en/download/)<br />
+If you're using Windows, bash should also be installed. [>bash installation](https://gist.github.com/bhubr/00c6e39e72231cf091a17772d73e6fb3)
 
 When you're done, in the terminal, run :
 
@@ -17,8 +16,7 @@ When you're done, in the terminal, run :
 
 ### MySQL database
 
-MySQL server should be installed as a prerequisite and you should create at least one user.
-https://dev.mysql.com/doc/mysql-getting-started/en/
+MySQL server should be installed as a prerequisite and you should create at least one user. [>MySQL installation](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
 You can retrieve the database config by importing the file "db.sql" in the "./config" folder from the Github repository:<br />
 1-Enter the "config" folder by running ```cd config```.<br />
