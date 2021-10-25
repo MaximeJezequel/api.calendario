@@ -19,10 +19,10 @@ When you're done, in the terminal, run :
 MySQL server should be installed as a prerequisite and you should create at least one user. [>MySQL installation](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
 You can retrieve the database config by importing the file "db.sql" in the "./config" folder from the Github repository:<br />
-1-Enter the "config" folder by running ```cd config```.<br />
-2-Launch MySQL by running ```mysql -u root -p``` and enter your user password when prompted.<br />
+1. Enter the "config" folder by running ```cd config```.<br />
+2. Launch MySQL by running ```mysql -u root -p``` and enter your user password when prompted.<br />
 (Windows users may need to use "winpty" software package and run ```winpty mysql -u root -p```)<br />
-3-Import the database by running ```source db.sql```
+3. Import the database by running ```source db.sql```
 
 ### Environment variables :
 
